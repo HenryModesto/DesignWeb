@@ -123,32 +123,32 @@ E aperte a tecla `Enter`
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/IgorOdSilva" title="Github Igor">
-        <img src="pictures/IGOR.jpeg" width="150px;" alt="Foto de Thiago Calmon"/><br>
+      <a href="https://github.com/" title="Github Igor">
+          <img src="pictures/HENRY.jpeg" width="150px;" heigth="200px;" alt="Foto de Thiago Calmon"/><br>
         <sub>
           <b>Thiago Calmon</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/eulineaguiar" title="Github Aline">
-        <img src="pictures/ALINE.jpeg" width="150px;" alt="Foto de Lucas Moia"/><br>
+      <a href="https://github.com/" title="Github Aline">
+          <img src="pictures/HENRY.jpeg" width="150px;" heigth="200px;" alt="Foto de Lucas Moia"/><br>
         <sub>
           <b>Lucas Moia</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/leoduarte14" title="Github Leonardo">
-        <img src="pictures/LEONARDO.jpeg" width="150px;" alt="Foto de Enzo Scartezinie"/><br>
+      <a href="https://github.com/" title="Github Leonardo">
+          <img src="pictures/HENRY.jpeg" width="150px;" heigth="200px;" alt="Foto de Enzo Scartezinie"/><br>
         <sub>
           <b>Enzo Scartenizie</b>
         </sub>
       </a>
     </td>
       <td align="center">
-      <a href="https://github.com/leoduarte14" title="Github Leonardo">
-        <img src="pictures/LEONARDO.jpeg" width="150px;" alt="Foto de Leonardo Duarte Pereira"/><br>
+      <a href="https://github.com/" title="Github Leonardo">
+          <img src="pictures/HENRY.jpeg" width="150px;" heigth="200px;" alt="Foto de Giovanni Senna"/><br>
         <sub>
           <b>Giovanni Senna</b>
         </sub>

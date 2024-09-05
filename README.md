@@ -126,7 +126,7 @@ E aperte a tecla `Enter`
       <a href="https://github.com/" title="Github Igor">
           <img src="pictures/HENRY.jpeg" width="150px;" heigth="200px;" alt="Foto de Thiago Calmon"/><br>
         <sub>
-          <b>Thiago Calmon</b>
+          <b>Augusto Santana</b>
         </sub>
       </a>
     </td>

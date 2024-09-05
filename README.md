@@ -1,27 +1,40 @@
-# Projeto Final da Disciplina de Design Web - Faculdade Impacta
+<h1 align="center">DESIGWEB WEBSITE</h1>
 
-Este projeto é o resultado final da disciplina de Design Web oferecida pela Faculdade Impacta. O objetivo principal é o desenvolvimento de um site completo que integra e consome uma API para funcionalidades de cadastramento.
+<p align="center">
+  <img src="pictures/banner-readme.png" style="border-radius: 15px;">
+</p>
 
 ## Descrição do Projeto
 
+Este projeto é o resultado final da disciplina de Design Web oferecida pela Faculdade Impacta. O objetivo principal é o desenvolvimento de um site completo que integra e consome uma API para funcionalidades de cadastramento.
+
 Desenvolvemos um site interativo e responsivo com foco na experiência do usuário e na estética visual. O projeto abrange desde a criação da interface até a implementação de funcionalidades dinâmicas através da integração com uma API externa. A API utilizada tem como propósito principal o gerenciamento e cadastramento de dados, proporcionando uma plataforma robusta e eficiente para o usuário final.
 
-## Componentes e Tecnologias Utilizadas
+## Diferenciais
 
-- **Design e Layout:** Utilização de técnicas modernas de design web para garantir uma interface amigável e visualmente atraente, seguindo princípios de design responsivo e acessibilidade.
-- **Frontend:** Implementação com HTML5, CSS3 e JavaScript, assegurando uma experiência de usuário fluida e interativa.
-- **Integração com API:** Consumo de uma API RESTful para realizar operações de cadastramento, incluindo a implementação de chamadas assíncronas e manipulação de dados.
-- **Backend (se aplicável):** Caso o projeto inclua um backend, uso de tecnologias como Node.js, Express, ou outras ferramentas para gerenciar a comunicação com a API e processar os dados recebidos.
-- **Testes e Validação:** Aplicação de testes de usabilidade e validação de dados para garantir a integridade e a eficácia do sistema de cadastramento.
+- Cursos autorais, com didática simples e intuitiva.
+- Jogos e dinâmicas lúdicas, relacionadas à programação.
+- Plataforma acessível e responsiva para celular e desktop.
+- Utilização de boas práticas de desenvolvimento (como helpers).
+- Autenticação de acesso, ou seja, determinadas funcionalidades ficam dedicadas a grupos específicos de usuários.
+- Chat para auxiliar em dúvidas com o uso de inteligência artificial.
 
-## Objetivos do Projeto
+## Acessibilidade
 
-- **Desenvolvimento de Interface:** Criar uma interface intuitiva e esteticamente agradável que facilite a interação do usuário com o site.
-- **Integração de API:** Implementar uma solução que consuma e integre dados de uma API externa, assegurando a correta funcionalidade do sistema de cadastramento.
-- **Experiência do Usuário:** Proporcionar uma experiência de usuário fluida e eficiente, com feedback em tempo real e validação de formulários.
+- [i18n](https://react.i18next.com) como recurso de tradução de texto para 10 diferentes línguas.
+- [VLibras](https://vlibras.gov.br/doc/widget/introduction/presentation.html) como recurso de tradução de texto no formato de sinais.
+- [Assistive](https://assistive.com.br) como recurso de acessibilidade digital complementar.
 
-## Como Executar o Projeto
+## Requisitos
 
-1. **Clone o Repositório:**
-   ```bash
-   git clone https://github.com/HenryModesto/DesignWeb
+Para executar nossa plataforma localmente, é necessário ter:
+
+1. **Node.js:** Certifique-se de instalar a versão mais recente do [Node.js](https://nodejs.org/en).
+2. **Editor de Código:** Instale um editor de código como o [Visual Studio Code](https://code.visualstudio.com/).
+
+## Download do Projeto
+
+Baixe o projeto em seu computador através do comando:
+
+```bash
+git clone https://github.com/usuario/nome-do-repositorio.git

@@ -1,8 +1,4 @@
-<h1 align=center>INCLUIDEV WEBSITE</h1>
-
-<p align="center">
-  <img src="pictures/banner-readme.png" style="border-radius: 15px;">
-</p>
+<h1 align=center>PROJECT DESIGN WEB</h1>
 
 #
 ### DESCRIÇÃO DO PROJETO
@@ -12,7 +8,7 @@ Este projeto é o resultado final da disciplina de Design Web oferecida pela Fac
 
 ### OBJETIVO
 
-Desenvolvemos um site interativo e responsivo com foco na experiência do usuário e na estética visual. O projeto abrange desde a criação da interface até a implementação de funcionalidades dinâmicas através da integração com uma API externa. A API utilizada tem como propósito principal o gerenciamento e cadastramento de dados, proporcionando uma plataforma robusta e eficiente para o usuário final.
+Desenvolver um site interativo e responsivo com foco na experiência do usuário e na estética visual. O projeto abrange desde a criação da interface até a implementação de funcionalidades dinâmicas através da integração com uma API externa. A API utilizada tem como propósito principal o gerenciamento e cadastramento de dados, proporcionando uma plataforma robusta e eficiente para o usuário final.
 
 
 ### REQUISITOS

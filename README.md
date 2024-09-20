@@ -43,29 +43,6 @@ Após a instalação:
 1. Clique com o botão direito do mouse na pasta `DesignWeb/DesignWeb`.
 2. Selecione "Abrir no Terminal".
 
-#
-### INSTALAÇÃO
-
-Instale as dependências contidas no projeto, com a execução do comando:
-
-```bash
-npm install
-```
-
-E aperte a tecla `Enter`
-
-#
-### EXECUÇÃO
-
-Execute o projeto com o seguinte comando:
-
-```bash
-npm run dev
-```
-
-E aperte a tecla `Enter`
-
-#
 ### VISUALIZAÇÃO
 
 Abra a janela do seu navegador web padrão e acesse o seguinte endereço pela barra de pesquisa:

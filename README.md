@@ -100,7 +100,7 @@ E aperte a tecla `Enter`
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/" title="Github Igor">
+      <a href="https://github.com/" title="Github Thiago Calmon">
           <img src="pictures/HENRY.jpeg" width="150px;" heigth="200px;" alt="Foto de Thiago Calmon"/><br>
         <sub>
           <b>Augusto Santana</b>
@@ -108,15 +108,15 @@ E aperte a tecla `Enter`
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/" title="Github Aline">
-          <img src="pictures/HENRY.jpeg" width="150px;" heigth="200px;" alt="Foto de Lucas Moia"/><br>
+      <a href="https://github.com/" title="Github Lucas">
+          <img src="pictures/Lucas.jpeg" width="150px;" heigth="200px;" alt="Foto de Lucas Moia"/><br>
         <sub>
           <b>Lucas Moia</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/" title="Github Leonardo">
+      <a href="https://github.com/" title="Github Enzo">
           <img src="pictures/HENRY.jpeg" width="150px;" heigth="200px;" alt="Foto de Enzo Scartezinie"/><br>
         <sub>
           <b>Enzo Scartenizie</b>
@@ -124,7 +124,7 @@ E aperte a tecla `Enter`
       </a>
     </td>
       <td align="center">
-      <a href="https://github.com/" title="Github Leonardo">
+      <a href="https://github.com/" title="Github Giovanni">
           <img src="pictures/HENRY.jpeg" width="150px;" heigth="200px;" alt="Foto de Giovanni Senna"/><br>
         <sub>
           <b>Giovanni Senna</b>

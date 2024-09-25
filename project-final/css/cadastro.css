@@ -1,6 +1,28 @@
 body {
     background-color: wheat;
     color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
 }
 
 .form {
@@ -8,10 +30,10 @@ body {
     grid-template-columns: 1fr;
     margin: 0 auto;
     max-width: 500px;
-    grid-gap: 20px;  
+    grid-gap: 20px;
 }
 
-.termos{
+.termos {
     font-size: 0.8rem;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -19,21 +41,34 @@ body {
     color: #101f10;
 }
 
-.campo-email{
+.campo-email {
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;    
+    margin: 8px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-input[type=text], 
-input[type=password], 
-input[type=date], 
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(19, 18, 18);
+}
+
+.form p {
+    text-align: center;
+    color: rgb(19, 18, 18);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+input[type=text],
+input[type=password],
+input[type=date],
 select {
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;    
+    margin: 8px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -41,12 +76,27 @@ select {
 .input-group {
     display: flex;
     justify-content: space-between;
-    gap: 10px; 
+    gap: 10px;
+    position: relative;
 }
 
-.input-group input[type=password], 
+.password-container {
+    position: relative;
+    flex: 1;
+}
+
+.input-group input[type=password],
 .input-group input[type=date] {
-    flex: 1; 
+    flex: 1;
+}
+
+.input-group .toggle-password {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
 }
 
 input[type=submit] {
@@ -60,63 +110,73 @@ input[type=submit] {
     cursor: pointer;
 }
 
-#newsletterNotification {
-    background-color: white;
-    padding: 2rem 2rem;
-    border-radius: 10px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    transition: .5s;
-    display: none;
-    z-index: 100000;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.268);
-    animation-name: fadeIn;
-    animation-duration: .5s;
-    animation-timing-function: ease;
-}
-
-#newsletterNotification h2 {
-    font-size: 1.2rem;
-    color: #4D4D4D;
-}
-
-#newsletterNotification > div {
-    display: flex;
-    align-items: center;
-    margin-bottom: .5rem;
-    gap: .4rem;
-}
-
-#errorNewsletterNotification {
-    background-color: white;
-    padding: 2rem 2rem;
-    border-radius: 10px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    transition: .5s;
-    display: none;
-    z-index: 100000;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.268);
-    animation-name: fadeIn;
-    animation-duration: .5s;
-    animation-timing-function: ease;
-}
-
-#errorNewsletterNotification h2 {
-    font-size: 1.2rem;
-    color: #4D4D4D;
-}
-
-#errorNewsletterNotification > div {
-    display: flex;
-    margin-bottom: .5rem;
-    align-items: center;
-    gap: .4rem;
+input[type=submit]:hover {
+    background-color: #45a049;
 }
 
 .flex-input {
     display: flex;
     flex-direction: column;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.footer__links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.footer__links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .input-group {
+        flex-direction: column;
+    }
+
+    nav a {
+        padding: 10px 0;
+    }
+
+    .footer__links li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .button-container{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .input-group input {
+        font-size: 1rem;
+    }
+
+    input[type=submit] {
+        padding: 12px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__links li {
+        display: none;
+        margin: -20px 0;
+        flex-direction: column;
+    }
+    
+
 }

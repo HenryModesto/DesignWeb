@@ -7,9 +7,6 @@ async function cadastroUsuario() {
     let cpf_cnpj = document.getElementById('cpf').value; 
     let birthday = document.getElementById('birthday').value; 
 
-
-
-
     let api = await fetch(url, {
         method: "POST",
         body: JSON.stringify({
@@ -40,11 +37,23 @@ async function cadastroUsuario() {
 
     }
     else {
-        alert("Erro desconhecido ao tentar cadastrar o usuário.");
+        alert("Erro! Usuario já cadastrado");
     }
 }
 
 
+function mostrarSenha() {
+    const passwordInput = document.getElementById('password');
+    const passwordToggle = document.querySelector('.toggle-password');
+    
+    if (passwordInput.type === 'password') {
+        passwordInput.type = 'text';
+        passwordToggle.textContent = '👁️'; 
+    } else {
+        passwordInput.type = 'password';
+        passwordToggle.textContent = '👁️‍🗨️'; 
+    }
+}
     
 
 

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
 
 :root {
-  --primary-color: #8263a3;
+  --primary-color: #151414;
   --text-dark: hsl(169deg 100% 18%);
   --white: #ffffff;
   --max-width: 1200px;
@@ -69,7 +69,6 @@ body::before {
 
 .container {
   position: relative;
-  isolation: isolate;
   min-height: 100vh;
   max-width: var(--max-width);
   margin-inline: auto;
@@ -101,10 +100,6 @@ nav {
   font-weight: 800;
 }
 
-#logoRolex{
-  width: 100rem;
-  z-index: 99;
-}
 
 .nav__left a {
   color: var(--text-dark);
@@ -114,20 +109,11 @@ nav {
   color: var(--white);
 }
 
+
 .nav__links a:hover {
   color: var(--primary-color);
 }
 
-.letter-s {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 40rem;
-  line-height: 40rem;
-  font-weight: 900;
-  color: var(--primary-color);
-}
 
 .container img {
   position: absolute;

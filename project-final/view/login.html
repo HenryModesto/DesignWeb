@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title></title>
+    <script src="../script/cadastro.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/index.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/cadastro.css" media="screen" />
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul class="nav__links nav__left">
+
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Modelos</a></li>
+            </ul>
+            <ul class="nav__links nav__right">
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+        <div class="letter-container"></div>
+      
+        <div class="button-container">
+            <button class="btn print">ROULEX</button>
+            <button class="btn catalog">ROULEX</button>
+        </div>
+        <section class="form">
+            <h1 style="text-align: center;">Faça seu Login</h1>
+            <div>
+                <form>
+                    <label for="lname">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Email">
+
+                    <label for="lname">password</label>
+                    <input type="password" id="password" name="password" placeholder="Email">
+
+                    <label for="lname">Termos</label>
+                    <input type="checkbox" id="terms" name="terms" />
+                    <input type="button" value="Submit" onclick="cadastroUsuario()">
+                </form>
+            </div>
+
+            <footer class="footer">
+                <ul class="footer__links">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </footer>
+    </div>
+    </section>
+
+</body>
+
+</html>

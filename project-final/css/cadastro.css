@@ -1,27 +1,55 @@
-body{
-    background-color: #1B1B1B;
+body {
+    background-color: wheat;
     color: black;
 }
 
 .form {
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     margin: 0 auto;
-    max-width: 500px;        
+    max-width: 500px;
     grid-gap: 20px;  
-        
 }
 
-input[type=text], select {
+.termos{
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #101f10;
+}
+
+.campo-email{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;    
     border: 1px solid #ccc;
     border-radius: 4px;
-    
 }
-  
-input[type=button] {
+
+input[type=text], 
+input[type=password], 
+input[type=date], 
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; 
+}
+
+.input-group input[type=password], 
+.input-group input[type=date] {
+    flex: 1; 
+}
+
+input[type=submit] {
     width: 100%;
     background-color: #4CAF50;
     color: white;
@@ -31,6 +59,64 @@ input[type=button] {
     border-radius: 4px;
     cursor: pointer;
 }
-  
 
-  
+#newsletterNotification {
+    background-color: white;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    transition: .5s;
+    display: none;
+    z-index: 100000;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.268);
+    animation-name: fadeIn;
+    animation-duration: .5s;
+    animation-timing-function: ease;
+}
+
+#newsletterNotification h2 {
+    font-size: 1.2rem;
+    color: #4D4D4D;
+}
+
+#newsletterNotification > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+    gap: .4rem;
+}
+
+#errorNewsletterNotification {
+    background-color: white;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    transition: .5s;
+    display: none;
+    z-index: 100000;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.268);
+    animation-name: fadeIn;
+    animation-duration: .5s;
+    animation-timing-function: ease;
+}
+
+#errorNewsletterNotification h2 {
+    font-size: 1.2rem;
+    color: #4D4D4D;
+}
+
+#errorNewsletterNotification > div {
+    display: flex;
+    margin-bottom: .5rem;
+    align-items: center;
+    gap: .4rem;
+}
+
+.flex-input {
+    display: flex;
+    flex-direction: column;
+}

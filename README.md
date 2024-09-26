@@ -99,17 +99,17 @@ E aperte a tecla `Enter`
         </sub>
       </a>
     </td>
-    <td align="center">
-      <a href="https://github.com/" title="Github Augusto Santana">
-          <img src="pictures/AUGUSTO.jpeg" width="150px;" heigth="200px;" alt="Foto de Augusto Santana"/><br>
+     <td align="center">
+      <a href="https://github.com/" title="Github Thiago Calmon">
+          <img src="pictures/AUGUSTO.jpeg" width="150px;" heigth="200px;" alt="Foto de Thiago Calmon"/><br>
         <sub>
-          <b>Augusto Santana</b>
+          <b>Thiago Calmon</b>
         </sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/" title="Github Thiago Calmon">
-          <img src="pictures/HENRY.jpeg" width="150px;" heigth="200px;" alt="Foto de Thiago Calmon"/><br>
+          <img src="pictures/AUGUSTO.jpeg" width="150px;" heigth="200px;" alt="Foto de Thiago Calmon"/><br>
         <sub>
           <b>Augusto Santana</b>
         </sub>

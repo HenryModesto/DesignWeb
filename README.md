@@ -101,7 +101,7 @@ E aperte a tecla `Enter`
     </td>
      <td align="center">
       <a href="https://github.com/" title="Github Thiago Calmon">
-          <img src="pictures/AUGUSTO.jpeg" width="150px;" heigth="200px;" alt="Foto de Thiago Calmon"/><br>
+          <img src="pictures/CALMON.jpg" width="150px;" heigth="200px;" alt="Foto de Thiago Calmon"/><br>
         <sub>
           <b>Thiago Calmon</b>
         </sub>
@@ -125,7 +125,7 @@ E aperte a tecla `Enter`
     </td>
     <td align="center">
       <a href="https://github.com/" title="Github Enzo">
-          <img src="pictures/HENRY.jpeg" width="150px;" heigth="200px;" alt="Foto de Enzo Scartezinie"/><br>
+          <img src="pictures/ENZO.png" width="150px;" heigth="200px;" alt="Foto de Enzo Scartezinie"/><br>
         <sub>
           <b>Enzo Scartenizie</b>
         </sub>
@@ -133,7 +133,7 @@ E aperte a tecla `Enter`
     </td>
       <td align="center">
       <a href="https://github.com/" title="Github Giovanni">
-          <img src="pictures/HENRY.jpeg" width="150px;" heigth="200px;" alt="Foto de Giovanni Senna"/><br>
+          <img src="pictures/SENNA.jpg" width="150px;" heigth="200px;" alt="Foto de Giovanni Senna"/><br>
         <sub>
           <b>Giovanni Senna</b>
         </sub>

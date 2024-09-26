@@ -100,6 +100,14 @@ E aperte a tecla `Enter`
       </a>
     </td>
     <td align="center">
+      <a href="https://github.com/" title="Github Augusto Santana">
+          <img src="pictures/AUGUSTO.jpeg" width="150px;" heigth="200px;" alt="Foto de Augusto Santana"/><br>
+        <sub>
+          <b>Augusto Santana</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
       <a href="https://github.com/" title="Github Thiago Calmon">
           <img src="pictures/HENRY.jpeg" width="150px;" heigth="200px;" alt="Foto de Thiago Calmon"/><br>
         <sub>
@@ -109,7 +117,7 @@ E aperte a tecla `Enter`
     </td>
     <td align="center">
       <a href="https://github.com/" title="Github Lucas">
-          <img src="pictures/LUCAS.png" width="150px;" heigth="200px;" alt="Foto de Lucas Moia"/><br>
+          <img src="pictures/Lucas.jpeg" width="150px;" heigth="200px;" alt="Foto de Lucas Moia"/><br>
         <sub>
           <b>Lucas Moia</b>
         </sub>

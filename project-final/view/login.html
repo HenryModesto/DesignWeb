@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <script src="../script/cadastro.js"></script>
+    <script src="../script/login.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/index.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="../css/cadastro.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/login.css" media="screen" />
 </head>
 
 <body>
     <div class="container">
         <nav>
             <ul class="nav__links nav__left">
-                <li><a href="../index.html">Home</a></li>
+                <li><a href="./home.html">Home</a></li>
                 <li><a href="#">Produtos</a></li>
                 <li><a href="#">Modelos</a></li>
             </ul>
@@ -30,9 +30,9 @@
             <button class="btn catalog">ROULEX</button>
         </div>
         
-        <section class="form">
-            <h1>Faça seu Login</h1>
-            <p>Caso não tenha uma conta, clique em Cadastro e preencha os dados pedidos</p>
+        <section class="form" style="margin-top: 4rem;">
+            <h1>Faça se<span>u Login</span></h1>
+            <p>Caso não tenha uma conta, clique em <span>Cadastro e preencha os dados pedidos</span></p>
             <div>
                 <form id="form" onsubmit="event.preventDefault(); loginUsuario();">
                     <input type="email" id="email" name="email" placeholder="Digite seu Email:" class="campo-email" required autocomplete="off">
@@ -40,7 +40,7 @@
                     <div class="input-group">
                         <div class="password-container">
                             <input type="password" id="password" name="password" placeholder="Digite sua senha:" required>
-                            <span class="toggle-password" onclick="togglePassword()">👁️</span>
+                            <span class="toggle-password" onclick="mostrarSenha()">👁️</span>
                         </div>
                     </div>
                     

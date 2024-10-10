@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endereço</title>
+    <script src="../script/endereco.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/index.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/cadastro.css" media="screen" />
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul class="nav__links nav__left">
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Modelos</a></li>
+            </ul>
+        </nav>
+        <div class="letter-container"></div>
+        <div class="button-container">
+            <button class="btn print">ROULEX</button>
+            <button class="btn catalog">ROULEX</button>
+        </div>
+        <section class="form" style="margin-top: 4rem;">
+            <h1 style="color: hsl(169deg 100% 18%);">CADASTRAR <span style="color: wheat;">ENDEREÇOS</span></h1>
+            
+            <div>
+                <form id="form" onsubmit="event.preventDefault(); cadastroEndereco();">
+                    <input type="text" id="title" name="title" placeholder="Digite o titulo:" autocomplete="off">
+                    <input type="text" id="cep" name="cep" placeholder="Digite seu CEP:" autocomplete="off">
+                    <input type="text" id="adress" name="adress" placeholder="Digite seu endereço:" autocomplete="off">
+                    <input type="text" id="number" name="number" placeholder="Digite o número:" autocomplete="off">
+                    <input type="text" id="complement" name="complement" placeholder="Complemento:" autocomplete="off">
+                    <div class="flex-input">
+                        <input type="submit" class="endereco-input" value="Cadastrar endereço"/>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <ul class="footer__links">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">TikTok</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>

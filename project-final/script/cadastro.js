@@ -28,6 +28,8 @@ async function cadastroUsuario() {
         console.log(resposta);
         alert("Usuário cadastrado com sucesso."); 
 
+        window.location.href = "../view/login.html"
+
         return;
     } 
     let respostaErro = await api.json();
@@ -35,10 +37,16 @@ async function cadastroUsuario() {
     if(respostaErro?.data?.errors?.cpf_cnpj){
         alert(respostaErro.data.errors.cpf_cnpj[0]);
 
+    } else if(respostaErro.data.errors.email){
+        alert(respostaErro.data.errors.email[0])
+
+    } else if(respostaErro.data.errors.password) {
+        alert(respostaErro.data.errors.password[0])
     }
     else {
-        alert("Erro! Usuario já cadastrado");
+        alert("Erro! Usuario já cadastrado ou dados inválidos.");
     }
+
 }
 
 

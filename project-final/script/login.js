@@ -4,6 +4,11 @@ async function loginUsuario() {
     let email = document.getElementById('email').value;
     let password = document.getElementById('password').value;
 
+    if (!title || !cep || !address || !number) {
+        alert('Por favor, preencha todos os campos obrigatórios.');
+        return; 
+    }
+
     let api = await fetch(urlLogin, {
         method: "POST",
         body: JSON.stringify({
@@ -20,20 +25,26 @@ async function loginUsuario() {
         let resposta = await api.json();
         console.log(resposta)
         localStorage.setItem("user", JSON.stringify(resposta))
-        alert('Login realizado com sucesso!')
-
-         window.location.href = "../view/home.html"  
+        alert("Login realizado com sucesso!")
+        window.location.href = "../view/home.html"  
 
         return;
     }
 
-    alert('Erro!')
+    let respostaErro = await api.json();
+    if(respostaErro.data.errors.password)
+        alert(respostaErro.data.errors.password[0]);
+
+    if(!respostaErro.data.errors.password && respostaErro)
+        alert(respostaErro.data.errors);
+    
+    
 }
 
 //loginUsuario()
 function cadastroEndereco() {
     let user = JSON.parse(localStorage.getItem("user"));
-    console.log(user.access_token)
+   // console.log(user.access_token)
 }
 
 cadastroEndereco()

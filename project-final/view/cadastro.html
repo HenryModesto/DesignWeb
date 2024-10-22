@@ -29,13 +29,13 @@
             <button class="btn catalog">ROULEX</button>
         </div>
         <section class="form" style="margin-top: 4rem;">
-            <h1>CADASTRE-SE</h1>
-            <p>Caso já tenha uma conta, clique em LOGIN e preencha os dados pedidos</p>
+            <h1 style="color: hsl(169deg 100% 18%);">CADAS<span style="color: wheat;">TRE-SE</span></h1>
+            <p><bold>Caso já tenha uma conta, clique em LOGIN e preencha os dados pedidos<bold></p>
             <div>
                 <form id="form" onsubmit="event.preventDefault(); cadastroUsuario();">
-                    <input type="text" id="name" name="name" placeholder="Digite seu nome:" autocomplete="off">
-                    <input type="text" id="cpf" name="cpf_cnpj" placeholder="Digite seu CPF:" autocomplete="off">
-                    <input type="email" id="email" name="email" placeholder="Digite seu Email:" class="campo-email" autocomplete="off">
+                    <input type="text" id="name" name="name" placeholder="Digite seu nome:" required autocomplete="off" >
+                    <input type="text" id="cpf" name="cpf_cnpj" placeholder="Digite seu CPF:" required autocomplete="off">
+                    <input type="email" id="email" name="email" placeholder="Digite seu Email:" class="campo-email" required autocomplete="off">
                     <div class="input-group">
                         <div class="password-container">
                             <input type="password" id="password" name="password" placeholder="Digite sua senha:" required>

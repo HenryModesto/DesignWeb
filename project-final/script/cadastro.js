@@ -7,6 +7,11 @@ async function cadastroUsuario() {
     let cpf_cnpj = document.getElementById('cpf').value; 
     let birthday = document.getElementById('birthday').value; 
 
+    if (!name || !email || !password || !cpf_cnpj || birthday) {
+        alert('Por favor, preencha todos os campos obrigatórios.');
+        return; 
+    }
+
     let api = await fetch(url, {
         method: "POST",
         body: JSON.stringify({
@@ -26,8 +31,7 @@ async function cadastroUsuario() {
     if (api.ok) {
         let resposta = await api.json();
         console.log(resposta);
-        alert("Usuário cadastrado com sucesso."); 
-
+        alert(resposta.data); 
         window.location.href = "../view/login.html"
 
         return;
